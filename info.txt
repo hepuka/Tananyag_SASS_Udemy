@@ -1,0 +1,7 @@
+npm init -y
+
+npm i sass -D
+
+compiler beállítás a package.json fájlban: "start": "sass ./sass/index.scss ./css/style.css --watch"
+
+compiler indítása: npm start
